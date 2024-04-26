@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const app = express();
 
@@ -34,8 +35,41 @@ client.on('message', async message => {
     if (!fs.existsSync('./commands/' + file_name)) return undefined;
     if (fs.existsSync('./commands/' + file_name)) {
       client.commands.get(file_name.replace('.js', '')).execute(client, message);
+=======
+const { Client, Collection } = require("discord.js");
+const config = require("./config.json");
+const client = new Client();
+const { GiveawaysManager } = require('discord-giveaways');
+
+client.giveawaysManager = new GiveawaysManager(client, {
+    storage: "./giveaways.json",
+    updateCountdownEvery: 5000,
+    default: {
+        botsCanWin: false,
+        embedColor: "#FF0000",
+        reaction: "🎉"
+>>>>>>> f060ad6848b5a1033f9aca4fb99a05785ed44f77
     }
-  }
 });
 
+<<<<<<< HEAD
 client.login(process.env.token);
+=======
+client.giveawaysManager.on("giveawayReactionAdded", (giveaway, member, reaction) => {
+    console.log(`${member.user.tag} entered giveaway #${giveaway.messageID} (${reaction.emoji.name})`);
+});
+
+client.giveawaysManager.on("giveawayReactionRemoved", (giveaway, member, reaction) => {
+    console.log(`${member.user.tag} unreact to giveaway #${giveaway.messageID} (${reaction.emoji.name})`);
+});
+
+client.giveawaysManager.on("giveawayEnded", (giveaway, winners) => {
+    console.log(`Giveaway #${giveaway.messageID} ended! Winners: ${winners.map((member) => member.user.username).join(', ')}`);
+});
+
+["aliases", "commands"].forEach(x => client[x] = new Collection());
+["command", "event"].forEach(x => require(`./handlers/${x}`)(client));
+
+
+client.login(config["Bot_Info"].token);
+>>>>>>> f060ad6848b5a1033f9aca4fb99a05785ed44f77

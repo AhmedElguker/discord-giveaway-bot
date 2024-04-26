@@ -1,68 +1,29 @@
-# Simple discord giveaway bot
-> A very simple discord giveaway bot made with discord.js
+<div align="center">
+<h1 align="center">
+<strong>
+⚠️ This repository does not work anymore! ⚠️
+</strong>
+<br>
+<br>
+<br>
+ 🔨 Contributors 🔨
+ </h1>
+<div align="center">
+<strong>Admins:</strong>
+<table>
+<tr>
+<td align="center"><a href="https://github.com/arktn"><img src="https://avatars.githubusercontent.com/u/64563726?v=4?s=100" width="100px;" alt="arktn"/><br /><sub><b>arktn</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/JacProsser"><img src="https://avatars.githubusercontent.com/u/48368615?v=4?s=100" width="100px;" alt="JacProsser"/><br /><sub><b>JacProsser</b></sub></a><br /></td>
+</table>
+<strong>Contributors:</strong>
+<table>
+<td align="center"><a href="https://github.com/OofChair"><img src="https://avatars.githubusercontent.com/u/66800643?v=4?s=100" width="100px;" alt="OofChair"/><br /><sub><b>OofChair</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/Tanya575"><img src="https://avatars.githubusercontent.com/u/80748971?v=4?s=100" width="100px;" alt="Tanya575"/><br /><sub><b>Tanya575</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/GoudronViande24"><img src="https://avatars.githubusercontent.com/u/42936037?v=4?s=100" width="100px;" alt="GoudronViande24"/><br /><sub><b>GoudronViande24</b></sub></a><br /></td>
+</tr>
+</table>
+</div>
+</div>
 
-![Preview](https://raw.githubusercontent.com/fekt/images/main/giveaway-bot/giveaway-bot.png)
-
-## Install
-
-Clone the repository:
-```
-You have to install NodeJS and Git.
-Create a folder.
-Open Command Prompt.
-Type in: cd The path to your new folder. (Example: C:\Users\User\Desktop\New folder)
-Press enter.
-After that type in: git clone https://github.com/fekt/giveaway-bot.git
-Press enter.
-When you see all Github files in your folder you installed the bot succesfully.
-```
-
-Alternatives:
-```
-Download the repository as a .zip folder.
-Open the repositroy in GitHub Desktop.
-npm install
-yarn
-```
-
-## Usage
-
-Open config.json and change the following values:
-
-```
-"prefix": "YOUR_PREFIX_HERE",
-"token": "YOUR_TOKEN_HERE"
-```
-
-## Start
-
-`After you have filled in the config.json file use the start-bot.bat file to start your bot automatically.`
-
-![Example2](https://i.imgur.com/Yeu5CXZ.gif)
-
-```
-If you have a problem starting the bot you can always open an issue in this repository.
-```
-> Don't worry the token shown in this gif is outdated.
-
-## Features
-
-* Create your own custom giveaways!
-* Custom time!
-* Custom prize!
-* Not manipulable!
-
-## Contributing
-
-1. [Fork the repository!](https://github.com/fekt/giveaway-bot/fork)
-2. Clone your fork: `git clone https://github.com/your-username/giveaway-bot.git`
-3. Create your feature branch: `git checkout -b my-new-feature`
-4. Commit your changes: `git commit -am 'Add some feature'`
-5. Push to the branch: `git push origin my-new-feature`
-6. Submit a pull request! ₍ᐢ•ﻌ•ᐢ₎*･ﾟ｡
-
-## Author
-
-Authored and maintained by fekt.
-
-> GitHub [@fekt](https://github.com/fekt)
+## LICENSE
+MIT © 2023 [arktn](https://github.com/arktn)
